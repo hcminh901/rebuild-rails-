@@ -1,2 +1,6 @@
 source :rubygems
 gem "rulers", path: ".."
+
+group :development do
+  gem "rerun"
+end
